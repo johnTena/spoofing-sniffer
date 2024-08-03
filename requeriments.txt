@@ -1,0 +1,3 @@
+scapy.all
+argparse
+termcolor
