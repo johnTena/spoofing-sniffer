@@ -1,29 +1,29 @@
 # ARP Spoof 
 Intercepta paquetes en la red local & Sniffer DNS.
 
-### Modo de uso:
+## Modo de uso:
 
-## Arp Spoof
+### Arp Spoof
 
-`./arp_spoof.py -h`
+ `./arp_spoof.py -h`
 
-  usage: arp_spoof.py [-h] -t IP_ADDRESS
+    usage: arp_spoof.py [-h] -t IP_ADDRESS
 
-  ARP Spoofer using Scapy
+    ARP Spoofer using Scapy
 
-  options:
+    options:
 
-    -h, --help
+      -h, --help
             show this help message and exit
 
-    -t IP_ADDRESS, --target IP_ADDRESS
+      -t IP_ADDRESS, --target IP_ADDRESS
             Specify a particular Host/IP to ARP poison.
 
-Victima Ejemplo: 192.168.1.2
+Victima IP ejemplo: 192.168.1.2
 
 `sudo ./arp_spoof.py -t 192.168.1.2`
 
-.
+    .
     Sent 1 packets.
     .
     Sent 1 packets.
@@ -32,11 +32,11 @@ Victima Ejemplo: 192.168.1.2
     .
     Sent 1 packets.
 
-[!] Nota: Si no desea ver el output del Script ejecutarlo de la siguiente manera.
+**[!] Nota:** Si no desea ver el output del Script ejecutarlo de la siguiente manera.
 
 `sudo ./arp_spoof.py -t 192.168.1.2 &>/dev/null`
 
-## DNS Sniffer
+### DNS Sniffer
 
 `sudo ./dns_sniffer`
 
@@ -45,7 +45,7 @@ Victima Ejemplo: 192.168.1.2
     [+] Dominio dev-example.domain-internacional.net.
 
 
-### Instalación:
+## Instalación:
 
 **Linux**
 
