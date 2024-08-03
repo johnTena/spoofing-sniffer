@@ -1,4 +1,4 @@
-# ARP Spoof 
+# ARP Spoof and DNS Sniffer
 Intercepta paquetes en la red local & Sniffer DNS.
 
 ## Modo de uso:
